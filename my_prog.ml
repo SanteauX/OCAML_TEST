@@ -1,7 +1,3 @@
-let test a b =
-  a * b
+let x = 30;;
 
-
-
-
-let() = print_endline test 4 3
+print_int x;;
