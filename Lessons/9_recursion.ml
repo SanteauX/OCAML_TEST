@@ -17,7 +17,7 @@ let rec fibonacci_2 = function
 | 1 -> 1
 | n -> fibonacci_2(n-1) + fibonacci_2(n-2)
 ;;
-
+(*test*)
 (* Mutually recursive functions must be declared together *)
 
 let rec fun1 x =
